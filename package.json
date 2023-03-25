@@ -2,7 +2,6 @@
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My webpack project",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --node-env=production",
@@ -13,8 +12,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@webpack-cli/generators": "^3.0.1",
     "@cybozu/eslint-config": "^18.0.2",
+    "@webpack-cli/generators": "^3.0.1",
     "eslint": "^8.36.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
