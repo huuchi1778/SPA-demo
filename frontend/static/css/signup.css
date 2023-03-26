@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text-input, .password-input, .submit-button {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.submit-button {
+  width: fit-content;
+}
+
+.password-input {
+  width: 177px;
+  height: 40px;
+  padding: 0 8px;
+  border: 1px solid #e3e7e8;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px #f5f5f5 inset;
+}

@@ -9,7 +9,11 @@ const stylesHandler = 'style-loader';
 
 
 const config = {
-  entry: '/frontend/static/js/index.js',
+  entry: {
+    index: '/frontend/static/js/index.js',
+    signup: '/frontend/static/js/signup.js',
+    signin: '/frontend/static/js/signin.js'
+  },
   output: {
     path: path.resolve(__dirname, './frontend/static/js/bundle'),
   },
